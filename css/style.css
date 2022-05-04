@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 6fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "Rien img perso"
+    "sociaux img perso";
+}
+
+.sociaux {
+    background-color: blueviolet;
+    grid-area: sociaux;
+    padding: 50px;
+}
+
+.img {
+    grid-area: img;
+}
+
+.perso {
+    grid-area: perso;
+}
+
+.Rien {
+    grid-area: Rien;
+}
