@@ -23,6 +23,8 @@
     align-items: end;
     padding: 40px 0;
     transform: skew(20deg);
+    border-right: 1px solid black;
+    border-left: 1px solid black;
 }
 
 .article_section_Sociaux
@@ -99,4 +101,5 @@ img
 {
     max-width: 100%;
     height: auto;
+    border: 1px solid black;
 }
