@@ -1,0 +1,47 @@
+.section_grid
+{
+
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+}
+
+.Sociaux
+{
+    /*min-height: 100vh;*/
+    background: linear-gradient(190deg, rgba(222,130,245,1) 0%, rgba(187,130,245,1) 35%, rgba(0,212,255,1) 100%);
+    order: 0;
+    width: 200px;
+    transform: skew(20deg);
+    /*align-content: end;*/
+    flex-grow: initial;
+    padding: 50px 250px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.article_section_Sociaux
+{
+    transform: skew(-20deg);
+}
+
+.About
+{
+    min-height: 100vh;
+    order: 1;
+}
+
+.article_img
+{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+
+}
+
+img
+{
+    max-width: 550px;
+    height: auto;
+    border: 1px solid black;
+}
