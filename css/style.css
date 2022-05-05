@@ -10,7 +10,7 @@
     min-height: 100vh;
     background: linear-gradient(190deg, rgba(222,130,245,1) 0%, rgba(187,130,245,1) 35%, rgba(0,212,255,1) 100%);
     order: 0;
-    width: 500px;
+    width: 600px;
     transform: skew(20deg);
     /*align-content: end;*/
     flex-grow: initial;
