@@ -1,27 +1,102 @@
-.container {
+.section_grid{
     display: grid;
-    grid-template-columns: 3fr 3fr 6fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
+    grid-template-columns: 3fr 6fr;
+    grid-template-rows: 1fr;
     grid-template-areas:
-    "Rien img perso"
-    "sociaux img perso";
+    "Sociaux About";
+    justify-content: stretch;
+    align-content: stretch;
+    justify-items: stretch;
+    align-items: stretch;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.Sociaux
+{
+    background: linear-gradient(190deg, rgba(222,130,245,1) 0%, rgba(187,130,245,1) 35%, rgba(0,212,255,1) 100%);
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-area: Sociaux;
+    align-items: end;
+    padding: 40px 0;
+    transform: skew(20deg);
 }
 
-.sociaux {
-    background-color: blueviolet;
-    grid-area: sociaux;
-    padding: 50px;
+.article_section_Sociaux
+{
+    transform: skew(-20deg);
 }
 
-.img {
-    grid-area: img;
+.About {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-area: About;
+    align-items: center;
+    padding: 300px;
 }
 
-.perso {
-    grid-area: perso;
+.article_about_h1
+{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.article_about_h2
+{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
 }
 
-.Rien {
-    grid-area: Rien;
+.article_about_p
+{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+button
+{
+    background-color: rgba(222,130,245,1);
+    padding: 10px;
+    width: 150px;
+    border: none;
+}
+
+button:hover
+{
+    background-color: #fff;
+}
+
+.article_img
+{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+
+}
+
+li{
+    display: inline;
+}
+
+a, a:visited {
+    color: white;
+}
+
+i{
+    padding: 10px 25px;
+    font-size: 2rem;
+}
+
+.black:hover
+{
+    color: black;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
 }
