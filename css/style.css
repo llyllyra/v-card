@@ -1,3 +1,8 @@
+body
+{
+    background-color: #f7f7f7;
+}
+
 .section_grid
 {
     display: flex;
@@ -19,7 +24,7 @@
     position: relative;
 }
 
-.test
+.bottom
 {
     margin: 30px;
     position: absolute;
@@ -33,13 +38,14 @@
 
 }
 
-
 .article_about_h1
 {
     text-transform: uppercase;
     font-size: 2.5rem;
     margin-bottom: 30px;
+    color: rgb(211, 86, 241);
 }
+
 .article_about_h2
 {
     text-transform: uppercase;
@@ -52,6 +58,7 @@
     margin-bottom: 30px;
     text-align: justify;
 }
+
 button
 {
     background-color: rgba(222,130,245,1);
@@ -62,7 +69,7 @@ button
 
 button:hover
 {
-    background-color: #fff;
+    background-color: #f7f7f7;
 }
 
 .article_img
@@ -73,15 +80,18 @@ button:hover
 
 }
 
-li{
+li
+{
     display: inline;
 }
 
-a, a:visited {
+a, a:visited
+{
     color: white;
 }
 
-i{
+i
+{
     padding: 10px 10px;
     font-size: 2rem;
 }
@@ -98,9 +108,9 @@ img
     border: 1px solid black;
 }
 
-.About {
+.About
+{
     position: absolute;
     left: 800px;
     top: 250px;
-
 }
